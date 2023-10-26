@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+        
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+		<title>Blackjack</title>
+        
+	</head>
+	<body>
+        
+        <header class="title">
+            Blackjack
+        </header>
+        
+        <div class="row mt-2">
+            <div id="buttonDiv" class="col text-center">
+                
+                <button id="btnNew" class="btn btn-primary">New Game</button>
+                <button id="btnRequest" disabled="disabled" class="btn btn-warning">Another Card</button>
+                <button id="btnStop" disabled="disabled" class="btn btn-danger">Stop</button>
+                
+            </div>
+        </div>
+        
+        <div class="row container">
+            <div class="col">
+                
+                <h1>Player 1 - <small id="playerPoints">0</small></h1>
+                <div id="player-cards" class="cardsDiv">
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="row container mt-2">
+            <div class="col">
+                
+                <h1>Croupier - <small id="croupierPoints">0</small></h1>
+                <div id="croupier-cards" class="cardsDiv">
+                </div>
+                
+            </div>
+        </div>
+        
+        
+		<div id="app"></div>
+        <script type="module" src="/main.js"></script>
+        
+	</body>
+</html>
