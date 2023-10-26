@@ -13,12 +13,14 @@ A simple blackjack game for practising with JavaScript. Please, enjoy it! :smile
 
 **HTML, CSS, Bootstrap, JavaScript, Vite** 
 
+## Pre-production
+
 Steps to run the project:
 
 1. Clone repository.
 2. Run ```npm install``` to rebuild the node modules.
 3. Start the devServer ```npm run dev```.
-4. Open the project in: ```localhost:XXXX```.
+4. Open the project in: ```http://localhost:XXXX```.
 
 ## Production
 
